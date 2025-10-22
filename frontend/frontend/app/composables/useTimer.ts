@@ -18,7 +18,7 @@ export const useTimer = (initialTime: number, key:string) => {
   })
 
   const formatted = computed(() => {
-    const m = Math.floor(timeLeft.value / 60)
+    const m = String(Math.floor(timeLeft.value / 60)).padStart(2, "0")
     const s = String(timeLeft.value % 60).padStart(2, "0")
     return `${m}:${s}`
   })

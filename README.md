@@ -1,5 +1,11 @@
 # Task: Create an interactive website/webapp
 
+### How to Run
+- Backend:
+  1. cd backend/backend > npm start
+- Frontend:
+2. cd frontend/frontend > npm run dev
+
 ### Task Requirement
 1. Create 3 'room' with start, stop and restart buttons.
 2. The buttons are used to interact with countdown timer.
